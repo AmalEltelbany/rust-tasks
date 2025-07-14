@@ -1,6 +1,6 @@
-# 🦀 Rust CLI Learning Tasks
+# 🦀 Rust Learning Tasks
 
-This repo contains small CLI-based Rust projects to practice core Rust concepts.
+This repo contains small Rust projects to practice core Rust concepts.
 
 ---
 
@@ -28,4 +28,13 @@ This repo contains small CLI-based Rust projects to practice core Rust concepts.
 📁 Folder: `task3_banksystem`
 
 - Trait for `Account` behavior.
-- `Resu
+- `Result`-based error handling for deposit and withdraw.
+- Uses `impl` blocks, formatted display, and a transfer function.
+- Demonstrates trait implementation, method calling, and ownership with mutable references.
+
+💡 Features:
+- Create and manage multiple accounts.
+- Deposit and withdraw with validation.
+- Transfer funds between accounts.
+- Use of `Display` and custom error messages.
+
