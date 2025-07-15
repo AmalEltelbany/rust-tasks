@@ -38,3 +38,22 @@ This repo contains small Rust projects to practice core Rust concepts.
 - Transfer funds between accounts.
 - Use of `Display` and custom error messages.
 
+---
+
+## ✅ Task 4: Password Vault CLI App
+
+📁 Folder: `pass-vault`
+
+- Command-line password manager to store and retrieve login credentials.
+- Uses modular code split between `main.rs` and a separate `pentry.rs`.
+- Stores data in `passwords.json` using `serde` for JSON serialization.
+- Supports adding, listing, and searching saved entries.
+- Enhanced terminal interface with ASCII art header.
+
+💡 Features:
+- Store `service`, `username`, and `password` per entry.
+- Persistent local storage (plain JSON).
+- Simple search functionality by service or username.
+- CLI interface menu using standard input/output.
+- Clean Rust module and struct-based design.
+
